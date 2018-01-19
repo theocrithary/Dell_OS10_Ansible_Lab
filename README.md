@@ -1,5 +1,5 @@
 # Dell_OS10_Ansible_Lab
-##Using Ansible with Dell OS10
+Using Ansible with Dell OS10
 
 ### Copy the following files from the Syncplicity share folder;
 #### NOS-VM-Template.ova
