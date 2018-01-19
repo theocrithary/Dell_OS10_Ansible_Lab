@@ -16,7 +16,8 @@ Using Ansible with Dell OS10
 #### Type ‘ifconfig’ and record the IP address that was assigned by the DHCP server
 ### Use WinSCP to connect to the above IP with the username root (no password)
 #### Upload the file ‘PKGS_OS10-Enterprise-10.4.0E.R1.56-installer-x86_64.bin’ from your local copy into the remote VM directory ‘/root’
-### Run the following command on the VM console ‘onie-nos-install /root/PKGS_OS10-Enterprise-10.4.0E.R1.56-installer-x86_64.bin’
+### Run the following command on the VM console; 
+"onie-nos-install /root/PKGS_OS10-Enterprise-10.4.0E.R1.56-installer-x86_64.bin"
 ### OS10 should install itself, then reboot into a login prompt
 #### You will now be able to login to OS10 with username admin and password admin
 #### Or if you want to gain access to the linux shell that powers OS10, login as user linuxadmin and password linuxadmin
